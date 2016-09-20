@@ -1,0 +1,24 @@
+<div>
+
+    <h1>__HOME__</h1>
+    <span>---</span><p>{{text}}</p><span>---</span>
+    <em>引入依赖的service</em>
+    <p>{{name}}</p>
+    <br>
+    <br>
+    <div style="border:1px solid #ccc;padding:100px;width:400px;">
+        <test-directive></test-directive>
+    </div>
+    <br>
+    <br>
+    <br>
+    <a ui-sref="indexState.childState1">childState1</a>
+    <a ui-sref="indexState.childState2">childState2</a>
+
+    <strong>下面是子View内容,共1个:</strong>
+
+    <div ui-view="childView"></div>
+
+    <p>END</p>
+
+</div>
