@@ -61,7 +61,7 @@ myApp.config(
                     return $ocLazyLoad.load({
                         name : 'myAppHomeTest',
                         cache: false,
-                        files: ['js/Controllers/homeCtrl.js','js/Services/testService.js','js/Directives/testDirective.js']
+                        files: ['js/Controllers/homeCtrl.js','js/Services/testService.js','js/Directives/testDirective.js','js/Services/testHttpService.js']
                     }).then(function() {
                        // $q.defer().resolve($templateCache.get('tpls/home.html'));
                     });
