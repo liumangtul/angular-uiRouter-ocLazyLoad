@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script><!-- jQuery is required -->
+    <link  href="node_modules/cropper/dist/cropper.css" rel="stylesheet">
+    <script src="node_modules/cropper/dist/cropper.js"></script>
+</head>
+    <body>
+
+    <img class="cropper" src="j.jpg">
+    <a href="http://www.html580.com/11122/demo">http://www.html580.com/11122/demo</a>
+    <a href="http://www.html580.com/11122">http://www.html580.com/11122</a>
+    <script>
+        $(".cropper").cropper({
+            aspectRatio: 16/9,
+            modal: false,
+            preview: ".extra-preview",
+            done: function(data) {
+                console.log(data);
+            }
+        });
+    </script>
+   </body>
+</html>

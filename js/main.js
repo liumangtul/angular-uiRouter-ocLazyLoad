@@ -61,11 +61,18 @@ myApp.config(
                     return $ocLazyLoad.load({
                         name : 'myAppHomeTest',
                         cache: false,
-                        files: ['js/Controllers/homeCtrl.js','js/Services/testService.js','js/Directives/testDirective.js','js/Services/testHttpService.js']
+                        files: [
+                            'js/Controllers/homeCtrl.js',
+                            'js/Services/testService.js',
+                            'js/Directives/testDirective.js',
+                            'js/Services/testHttpService.js',
+                            'js/Directives/fileModel.js',
+                            'js/Services/fileReader.js'
+                        ]
                     }).then(function() {
-                       // $q.defer().resolve($templateCache.get('tpls/home.html'));
+                        // $q.defer().resolve($templateCache.get('tpls/home.html'));
                     });
-                }]
+                }],
             }
         })
         .state('indexState.childState1', {

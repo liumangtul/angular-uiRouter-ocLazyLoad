@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "angular-ui-router": "^1.0.0-beta.2"
+    "angular-file-upload": "^2.3.4",
+    "angular-ui-router": "^1.0.0-beta.2",
+    "cropper": "^2.3.4",
+    "jquery": "^3.1.1",
+    "ng-file-upload": "^12.2.11",
+    "ng-img-crop": "^0.2.0"
   }
 }
